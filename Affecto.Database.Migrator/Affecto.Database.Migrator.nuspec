@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>$author$</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Possibility to use tags with database migrator. Reads tags from app.config with key "MigrationTags".</releaseNotes>
+    <dependencies>
+      <dependency id="FluentMigrator.Runner" version="1.6.0" />
+      <dependency id="FluentMigrator" version="1.6.0" />
+    </dependencies>
+  </metadata>
+</package>
